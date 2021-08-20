@@ -1,0 +1,798 @@
+# Copyright (C) 2021 wp-dark-mode
+# This file is distributed under the same license as the wp-dark-mode package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-dark-mode\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: elementor/class-elementor-widget.php:15
+msgid "Dark Mode Switch"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:33, elementor/class-elementor-widget.php:125
+msgid "Alignment"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:41
+msgid "Layout"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:48
+msgid "Switch Style"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:129, includes/admin/class-settings.php:833
+msgid "Left"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:133
+msgid "Center"
+msgstr ""
+
+#: elementor/class-elementor-widget.php:137, includes/admin/class-settings.php:839
+msgid "Right"
+msgstr ""
+
+#: includes/admin/class-admin.php:52
+msgid "WP Dark Mode Usage"
+msgstr ""
+
+#: includes/admin/class-settings-api.php:446
+msgid "Choose File"
+msgstr ""
+
+#: includes/admin/class-settings.php:84
+msgid "%s <span>General Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:92
+msgid "%s <span>Advanced Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:100
+msgid "%s <span>Color Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:107
+msgid "%s <span>Accessibility Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:114
+msgid "%s <span>Switch Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:121
+msgid "%s <span>Includes/ Excludes</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:129
+msgid "%s <span>Triggers</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:137
+msgid "%s <span>WooCommerce</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:145
+msgid "%s <span>Image Settings</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:153
+msgid "%s <span>Custom CSS</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:160
+msgid "%s <span>Animation</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:167
+msgid "%s <span>Analytics & Reporting</span>"
+msgstr ""
+
+#: includes/admin/class-settings.php:180
+msgid "Enable Frontend Darkmode"
+msgstr ""
+
+#: includes/admin/class-settings.php:181
+msgid "Turn ON to enable the darkmode in the frontend."
+msgstr ""
+
+#: includes/admin/class-settings.php:188
+msgid "Enable Backend Darkmode"
+msgstr ""
+
+#: includes/admin/class-settings.php:189
+msgid "Enable the backend darkmode to display a darkmode switch button in the admin bar for the admins on the backend."
+msgstr ""
+
+#: includes/admin/class-settings.php:199
+msgid "Enable OS aware Dark Mode"
+msgstr ""
+
+#: includes/admin/class-settings.php:200
+msgid "Dark Mode has been activated in the frontend. Now, your users will be served a dark mode of your website when their device preference is set to Dark Mode or by switching the darkmode switch button."
+msgstr ""
+
+#: includes/admin/class-settings.php:217
+msgid "Make Dark Mode Default"
+msgstr ""
+
+#: includes/admin/class-settings.php:218
+msgid "Make the dark mode as the default mode. Visitors will see the dark mode first."
+msgstr ""
+
+#: includes/admin/class-settings.php:225
+msgid "Time Based Dark Mode"
+msgstr ""
+
+#: includes/admin/class-settings.php:226
+msgid "Automatically turn on the dark mode between a given time range."
+msgstr ""
+
+#: includes/admin/class-settings.php:233
+msgid "Dark Mode Start Time"
+msgstr ""
+
+#: includes/admin/class-settings.php:234
+msgid "Time to start Dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:242
+msgid "Dark Mode End Time"
+msgstr ""
+
+#: includes/admin/class-settings.php:243
+msgid "Time to end Dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:256
+msgid "Includes Elements"
+msgstr ""
+
+#: includes/admin/class-settings.php:257
+msgid "Add comma separated CSS selectors (classes, ids) to to apply dark mode. Only the elements within the selectors applied by dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:267
+msgid "Excludes Elements"
+msgstr ""
+
+#: includes/admin/class-settings.php:268
+msgid "Add comma separated CSS selectors (classes, ids) to ignore the darkmode. ex: .class1, #hero-area"
+msgstr ""
+
+#: includes/admin/class-settings.php:282
+msgid "Exclude Pages"
+msgstr ""
+
+#: includes/admin/class-settings.php:283, includes/admin/class-settings.php:290
+msgid "Select the pages to disable darkmode on the selected pages."
+msgstr ""
+
+#: includes/admin/class-settings.php:289
+msgid "Exclude Posts"
+msgstr ""
+
+#: includes/admin/class-settings.php:297
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/admin/class-settings.php:298
+msgid "Select the category(s) in which you want to apply the darkmode. Outside of the category the dark mode won't be applied."
+msgstr ""
+
+#: includes/admin/class-settings.php:306
+msgid "Exclude Tags"
+msgstr ""
+
+#: includes/admin/class-settings.php:313
+msgid "Exclude Post Types"
+msgstr ""
+
+#: includes/admin/class-settings.php:322
+msgid "Exclude WC Categories"
+msgstr ""
+
+#: includes/admin/class-settings.php:329
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/admin/class-settings.php:338
+msgid "Show Floating Switch"
+msgstr ""
+
+#: includes/admin/class-settings.php:339
+msgid "Show the floating dark mode switcher button on the frontend for the users."
+msgstr ""
+
+#: includes/admin/class-settings.php:346
+msgid "Floating Switch Style"
+msgstr ""
+
+#: includes/admin/class-settings.php:347
+msgid "Select the switcher button style for the frontend."
+msgstr ""
+
+#: includes/admin/class-settings.php:376
+msgid "Floating Switch Position"
+msgstr ""
+
+#: includes/admin/class-settings.php:378
+msgid "<p class=\"description\">Select the position of the floating dark mode switcher button on the frontend.</p>"
+msgstr ""
+
+#: includes/admin/class-settings.php:382
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/admin/class-settings.php:383
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/admin/class-settings.php:391
+msgid "Custom Position"
+msgstr ""
+
+#: includes/admin/class-settings.php:392
+msgid "Customize the position of the floating switch."
+msgstr ""
+
+#: includes/admin/class-settings.php:399
+msgid "Attention Effect"
+msgstr ""
+
+#: includes/admin/class-settings.php:400
+msgid "Select the attention animation effect for the switch."
+msgstr ""
+
+#: includes/admin/class-settings.php:403
+msgid "None"
+msgstr ""
+
+#: includes/admin/class-settings.php:404
+msgid "Wobble"
+msgstr ""
+
+#: includes/admin/class-settings.php:418
+msgid "Enable Call to action"
+msgstr ""
+
+#: includes/admin/class-settings.php:419
+msgid "Show/ hide call to action text."
+msgstr ""
+
+#: includes/admin/class-settings.php:426
+msgid "Call to action"
+msgstr ""
+
+#: includes/admin/class-settings.php:427
+msgid "Add call to action text, beside the dark mode button. (Make empty to disable the CTA)"
+msgstr ""
+
+#: includes/admin/class-settings.php:435
+msgid "CTA Text Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:436
+msgid "Select the text color of the switch button."
+msgstr ""
+
+#: includes/admin/class-settings.php:443
+msgid "CTA Background Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:444
+msgid "Select the background color of the switch button."
+msgstr ""
+
+#: includes/admin/class-settings.php:451
+msgid "Display Switch in Menu"
+msgstr ""
+
+#: includes/admin/class-settings.php:452
+msgid "Display the darkmode switch in the menu."
+msgstr ""
+
+#: includes/admin/class-settings.php:459
+msgid "Select Menu(s)"
+msgstr ""
+
+#: includes/admin/class-settings.php:460
+msgid "Select the menu(s) in which you want to display the darkmode switch."
+msgstr ""
+
+#: includes/admin/class-settings.php:467
+msgid "Custom Switch Icon"
+msgstr ""
+
+#: includes/admin/class-settings.php:468
+msgid "Customize the darkmode switch icon in the dark & light mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:474
+msgid "Switch Icon (Light)"
+msgstr ""
+
+#: includes/admin/class-settings.php:475
+msgid "Switch Icon in the light mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:481
+msgid "Switch Icon (Dark)"
+msgstr ""
+
+#: includes/admin/class-settings.php:482
+msgid "Switch Icon in the dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:489
+msgid "Custom Switch Text"
+msgstr ""
+
+#: includes/admin/class-settings.php:490
+msgid "Customize the darkmode switch text."
+msgstr ""
+
+#: includes/admin/class-settings.php:497
+msgid "Switch Text (Light)"
+msgstr ""
+
+#: includes/admin/class-settings.php:498
+msgid "Floating switch light text."
+msgstr ""
+
+#: includes/admin/class-settings.php:505
+msgid "Switch Text (Dark)"
+msgstr ""
+
+#: includes/admin/class-settings.php:506
+msgid "Floating switch dark text."
+msgstr ""
+
+#: includes/admin/class-settings.php:513
+msgid "Show Above Posts"
+msgstr ""
+
+#: includes/admin/class-settings.php:514
+msgid "Show the dark mode switcher button above of all the post."
+msgstr ""
+
+#: includes/admin/class-settings.php:521
+msgid "Show Above Pages"
+msgstr ""
+
+#: includes/admin/class-settings.php:522
+msgid "Show the dark mode switcher button above of all the pages."
+msgstr ""
+
+#: includes/admin/class-settings.php:531
+msgid "Brightness :"
+msgstr ""
+
+#: includes/admin/class-settings.php:532
+msgid "Set the brightness of the dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:540
+msgid "Contrast :"
+msgstr ""
+
+#: includes/admin/class-settings.php:541
+msgid "Set the contrast of the dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:549
+msgid "Sepia :"
+msgstr ""
+
+#: includes/admin/class-settings.php:550
+msgid "Set the sepia of the dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:559, includes/admin/class-settings.php:662
+msgid "Preview :"
+msgstr ""
+
+#: includes/admin/class-settings.php:560
+msgid "Demo Preview of the filter settings."
+msgstr ""
+
+#: includes/admin/class-settings.php:568
+msgid "Want to use color presets?"
+msgstr ""
+
+#: includes/admin/class-settings.php:569
+msgid "Select the predefined darkmode preset colors."
+msgstr ""
+
+#: includes/admin/class-settings.php:575
+msgid "Darkmode Color Preset:"
+msgstr ""
+
+#: includes/admin/class-settings.php:576
+msgid "Select the predefined darkmode background, text and link preset color."
+msgstr ""
+
+#: includes/admin/class-settings.php:597
+msgid "Want to use custom colors?"
+msgstr ""
+
+#: includes/admin/class-settings.php:598
+msgid "Customize the darkmode background, text and link colors."
+msgstr ""
+
+#: includes/admin/class-settings.php:604
+msgid "Darkmode Background Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:605
+msgid "Select the background color when the dark mode is on."
+msgstr ""
+
+#: includes/admin/class-settings.php:611
+msgid "Darkmode Text Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:612
+msgid "Select the text color when the dark mode is on."
+msgstr ""
+
+#: includes/admin/class-settings.php:618
+msgid "Darkmode Links Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:619
+msgid "Select the links color when the dark mode is on."
+msgstr ""
+
+#: includes/admin/class-settings.php:629
+msgid "Enable font size toggle"
+msgstr ""
+
+#: includes/admin/class-settings.php:630
+msgid "Show/ hide the font size toggle button. You must select the darkmode and font-size toggle switch from the switch settings."
+msgstr ""
+
+#: includes/admin/class-settings.php:638
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/class-settings.php:639
+msgid "Select the font size."
+msgstr ""
+
+#: includes/admin/class-settings.php:642
+msgid "Large"
+msgstr ""
+
+#: includes/admin/class-settings.php:643
+msgid "Extra Large"
+msgstr ""
+
+#: includes/admin/class-settings.php:644
+msgid "Huge"
+msgstr ""
+
+#: includes/admin/class-settings.php:645
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/class-settings.php:651
+msgid "Custom Font Size :"
+msgstr ""
+
+#: includes/admin/class-settings.php:652
+msgid "Set the custom fontsize."
+msgstr ""
+
+#: includes/admin/class-settings.php:663
+msgid "Font-size settings preview."
+msgstr ""
+
+#: includes/admin/class-settings.php:671
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#: includes/admin/class-settings.php:672
+msgid "Enable/disable the dark mode toggle shortcut."
+msgstr ""
+
+#: includes/admin/class-settings.php:698
+msgid "Low Brightness"
+msgstr ""
+
+#: includes/admin/class-settings.php:699
+msgid "Enable/disable the images brightness to 80% when dark mode is ON."
+msgstr ""
+
+#: includes/admin/class-settings.php:705
+msgid "Grayscale"
+msgstr ""
+
+#: includes/admin/class-settings.php:706
+msgid "Enable/disable the grayscale effect to images when dark mode is ON."
+msgstr ""
+
+#: includes/admin/class-settings.php:716
+msgid "Darkmode Toggle Animation"
+msgstr ""
+
+#: includes/admin/class-settings.php:717
+msgid "Enable/ disable the dark mode toggle  animation between dark/white mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:724
+msgid "Animation Effect"
+msgstr ""
+
+#: includes/admin/class-settings.php:725
+msgid "Select the animation effect between dark/white mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:729
+msgid "Fade In"
+msgstr ""
+
+#: includes/admin/class-settings.php:730
+msgid "Pulse"
+msgstr ""
+
+#: includes/admin/class-settings.php:731
+msgid "Flip"
+msgstr ""
+
+#: includes/admin/class-settings.php:732
+msgid "Roll"
+msgstr ""
+
+#: includes/admin/class-settings.php:733
+msgid "Slide Left"
+msgstr ""
+
+#: includes/admin/class-settings.php:734
+msgid "Slide Up"
+msgstr ""
+
+#: includes/admin/class-settings.php:735
+msgid "Slide Right"
+msgstr ""
+
+#: includes/admin/class-settings.php:736
+msgid "Slide Down"
+msgstr ""
+
+#: includes/admin/class-settings.php:747
+msgid "Enable Analytics"
+msgstr ""
+
+#: includes/admin/class-settings.php:748
+msgid "Enable/ disable the dark mode usage analytics."
+msgstr ""
+
+#: includes/admin/class-settings.php:755
+msgid "Dashboard Widget"
+msgstr ""
+
+#: includes/admin/class-settings.php:756
+msgid "Show/ hide the dark mode usage dashboard chart widget."
+msgstr ""
+
+#: includes/admin/class-settings.php:763
+msgid "Email Reporting"
+msgstr ""
+
+#: includes/admin/class-settings.php:764
+msgid "Enable/ disable the dark mode usage email reporting."
+msgstr ""
+
+#: includes/admin/class-settings.php:771
+msgid "Reporting Frequency"
+msgstr ""
+
+#: includes/admin/class-settings.php:772
+msgid "Select the reporting frequency, when the email will be send."
+msgstr ""
+
+#: includes/admin/class-settings.php:775
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/class-settings.php:776
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/class-settings.php:777
+msgid "Monthly"
+msgstr ""
+
+#: includes/admin/class-settings.php:784
+msgid "Reporting Email"
+msgstr ""
+
+#: includes/admin/class-settings.php:785, includes/admin/class-settings.php:793
+msgid "Enter the reporting email."
+msgstr ""
+
+#: includes/admin/class-settings.php:791
+msgid "Weekly Dark Mode Usage Summary of "
+msgstr ""
+
+#: includes/admin/class-settings.php:792
+msgid "Reporting Email Subject"
+msgstr ""
+
+#: includes/admin/class-settings.php:922
+msgid "Select the pages by searching to disable dark mode on the selected pages."
+msgstr ""
+
+#: includes/admin/class-settings.php:930, includes/admin/class-settings.php:1007, includes/admin/class-settings.php:1072, includes/admin/class-settings.php:1145, includes/admin/class-settings.php:1219, includes/admin/class-settings.php:1290
+msgid "Exclude All:"
+msgstr ""
+
+#: includes/admin/class-settings.php:944, includes/admin/class-settings.php:1020, includes/admin/class-settings.php:1086, includes/admin/class-settings.php:1159, includes/admin/class-settings.php:1233, includes/admin/class-settings.php:1304
+msgid "Except"
+msgstr ""
+
+#: includes/admin/class-settings.php:969, includes/admin/class-settings.php:1036
+msgid "When turned ON, Dark Mode will only work on the selected pages."
+msgstr ""
+
+#: includes/admin/class-settings.php:999
+msgid "Select the posts by searching to disable the dark mode on the posts."
+msgstr ""
+
+#: includes/admin/class-settings.php:1065
+msgid "Select the products by searching to disable dark mode on the selected products."
+msgstr ""
+
+#: includes/admin/class-settings.php:1104
+msgid "When turned ON, Dark Mode will only work on the selected products."
+msgstr ""
+
+#: includes/admin/class-settings.php:1138, includes/admin/class-settings.php:1283
+msgid "Select the categories to exclude the dark mode from the categories posts."
+msgstr ""
+
+#: includes/admin/class-settings.php:1177
+msgid "When turned ON, Dark Mode will only work on the selected categories."
+msgstr ""
+
+#: includes/admin/class-settings.php:1212
+msgid "Select the categories to exclude the dark mode from the categories products."
+msgstr ""
+
+#: includes/admin/class-settings.php:1251
+msgid "When turned ON, Dark Mode will only work on the selected woocommerce categories."
+msgstr ""
+
+#: includes/admin/class-settings.php:1324
+msgid "When turned ON, Dark Mode will only work on the selected tags."
+msgstr ""
+
+#: includes/admin/class-settings.php:1353
+msgid "Select the post type to exclude the dark mode."
+msgstr ""
+
+#: includes/admin/class-settings.php:1473, includes/admin/class-settings.php:1473
+msgid "WP Dark Mode"
+msgstr ""
+
+#: includes/admin/class-settings.php:1485
+msgid "WP Dark Mode Settings"
+msgstr ""
+
+#: includes/base.php:86
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr ""
+
+#: includes/base.php:215
+msgid "Settings"
+msgstr ""
+
+#: includes/base.php:221
+msgid "GET PRO"
+msgstr ""
+
+#: includes/class-nav-menu.php:19, includes/class-nav-menu.php:32
+msgid "Darkmode Switcher"
+msgstr ""
+
+#: includes/class-nav-menu.php:52
+msgid "Add to menu"
+msgstr ""
+
+#: plugin.php:17
+msgid "You can't access this page"
+msgstr ""
+
+#: templates/admin/get-started/elementor-widget.php:1
+msgid "Elementor Widget"
+msgstr ""
+
+#: templates/admin/get-started/gutenberg-block.php:1
+msgid "Gutenberg Block"
+msgstr ""
+
+#: templates/admin/get-started/index.php:9
+msgid "Gutenberg"
+msgstr ""
+
+#: templates/admin/get-started/index.php:13
+msgid "Elementor"
+msgstr ""
+
+#: templates/admin/get-started/index.php:17
+msgid "Widget"
+msgstr ""
+
+#: templates/admin/get-started/index.php:21, templates/admin/get-started/shortcodes.php:2
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/admin/get-started/index.php:25
+msgid "Support"
+msgstr ""
+
+#: templates/admin/get-started/switch-widget.php:2
+msgid "Switch Widget"
+msgstr ""
+
+#: templates/admin/license-notice.php:7, templates/admin/license-notice.php:14
+msgid "Activate License"
+msgstr ""
+
+#: templates/admin/license-notice.php:7
+msgid "Version"
+msgstr ""
+
+#: templates/admin/license-notice.php:9
+msgid "Activate the license for "
+msgstr ""
+
+#: templates/admin/license-notice.php:9
+msgid " to function properly."
+msgstr ""
+
+#: templates/admin/promo.php:54
+msgid "Unlock the PRO features"
+msgstr ""
+
+#: templates/admin/promo.php:55
+msgid "Unlock all the features"
+msgstr ""
+
+#: templates/admin/recommended-plugins.php:515
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/admin/recommended-plugins.php:516
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""
+
+#: templates/btn-1.php:9, templates/btn-10.php:8, templates/btn-11.php:8, templates/btn-12.php:7, templates/btn-13.php:8, templates/btn-2.php:3, templates/btn-2.php:7, templates/btn-3.php:9, templates/btn-5.php:3, templates/btn-5.php:7, templates/btn-9.php:10
+msgid "Light"
+msgstr ""
+
+#: templates/btn-1.php:10, templates/btn-10.php:9, templates/btn-11.php:9, templates/btn-12.php:8, templates/btn-13.php:13, templates/btn-2.php:4, templates/btn-2.php:8, templates/btn-3.php:14, templates/btn-5.php:4, templates/btn-5.php:8, templates/btn-9.php:11
+msgid "Dark"
+msgstr ""
+
+#: templates/btn-14.php:11, templates/btn-14.php:15, templates/btn-15.php:21, templates/btn-16.php:23, templates/btn-17.php:31
+msgid "Toggle Dark Mode"
+msgstr ""
+
+#: templates/btn-14.php:21
+msgid "Toggle Large Font Size"
+msgstr ""
+
+#: templates/btn-14.php:25, templates/btn-15.php:36, templates/btn-16.php:53, templates/btn-17.php:45
+msgid "Toggle Font Size"
+msgstr ""
