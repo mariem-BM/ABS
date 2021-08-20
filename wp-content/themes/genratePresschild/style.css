@@ -1,0 +1,19 @@
+/*
+Theme Name:   genratePresschild
+Description:  child of GenratePress
+Author:       mariam
+Author URL:   http://127.0.0.1/wordpress
+Template:     generatepress
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  genratePresschild
+*/
+
+/* Écrivez ici votre propre feuille de style personnelle */
+
+
+
+.one-container .site-content {
+    padding: 0;
+}
